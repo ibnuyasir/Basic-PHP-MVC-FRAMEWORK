@@ -1,8 +1,8 @@
-## Basic MVC PHP Framework
+# Basic MVC PHP Framework
 
 "Terinspirasi dari Framework CodeIgniter 4"
 
-# Config connection database, on 'src/config/config.php'
+## Config connection database, on 'src/config/config.php'
 
 ``` bash
 return [
@@ -21,7 +21,7 @@ return [
     'timezone' => 'UTC',
 ];
 ```
-# Configuration for Routing 'public/index.php'
+## Configuration for Routing 'public/index.php'
 
 ```bash
 require_once __DIR__ . '/../vendor/autoload.php';
@@ -35,13 +35,13 @@ $router->run();
 
 Selebihnya, semua menggunakan native, Dengan composer dan PSR-4. Konfigurasi lainnya seperti Controller dan model, Bisa langsung di lihat contohnya
 
-# Path Controller
+## Path Controller
 
 ```bash
 'src/App/controler'
 ```
 
-# Path Model
+## Path Model
 
 ```bash
 'src/App/Models'
