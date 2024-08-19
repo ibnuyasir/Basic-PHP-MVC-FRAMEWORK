@@ -1,0 +1,17 @@
+<?php
+require_once __DIR__ . '/vendor/autoload.php';
+echo "Sebentar mass\n\n";
+$kata0 = '"Allah plan is better than your dreams."';
+$kata1 = '"Lelahmu akan berubah manis ketika niatnya lillah karena Allah."';
+$kata2 = '"Masalah yang dihadapi boleh sama, tapi yang membedakan Anda dari yang lain adalah cara Anda menyelesaikannya"';
+$kata3 = '"Agama tanpa ilmu pengetahuan adalah buta. dan ilmu pengetahuan tanpa Agama adalah lumpuh."';
+$kata4 = '"Jenius itu = 1% imajinasi 99% Kegigihan."';
+
+$kataArray = array($kata0, $kata1, $kata2, $kata3, $kata4);
+$randomIndex = array_rand($kataArray);
+echo "==================================================================\n";
+echo $kataArray[$randomIndex] . "\n";
+echo "==================================================================\n\n";
+echo "Untuk menghentikan server, ketik Ctrl+C\n\n";
+$command = "php -S localhost:8000 -t public";
+exec($command);
