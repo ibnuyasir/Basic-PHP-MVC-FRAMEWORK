@@ -76,3 +76,8 @@ Selebihnya, semua menggunakan native, Dengan composer dan PSR-4. Konfigurasi lai
     }
 }
 ```
+### Author
+<a href="https://github.com/ibnuyasir"><img src="https://img.shields.io/badge/Original-Author-brightgreen.svg" alt=""/></a>
+
+### Pengunjung
+![Visitor Count](https://profile-counter.glitch.me/ibnuyasir/count.svg)
